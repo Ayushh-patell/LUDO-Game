@@ -327,7 +327,7 @@ function piece_movement(the_pieces, the_block) {
     if ((the_block.every(block => block.childNodes[0])) && (dice_num != 6)) {
         setTimeout(() => {
             dice_img.setAttribute("src", " ")
-        }, 500);
+        }, 800);
         Turn_change()
     }
     else if (dice_num != 6) {
